@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f7f2">
+  <meta name="description" content="Portfolio học tập JavaScript của Lê Viết Chí Hưng, học phần Phát triển ứng dụng thương mại điện tử.">
+  <title>JavaScript Labs — Lê Viết Chí Hưng</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="JavaScript Labs, về đầu trang">
+        <span class="brand-mark">JS</span><span class="brand-name">Learning log / 2026</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Mở điều hướng" aria-expanded="false" aria-controls="site-navigation">☰</button>
+      <nav class="nav-links" id="site-navigation" aria-label="Điều hướng chính">
+        <a href="#labs">Ba bài Lab</a>
+        <a href="#learning">Kiến thức</a>
+        <a href="#reflection">Tự đánh giá</a>
+        <a class="nav-cta" href="https://github.com/hungle-31241027755/phat-trien-ung-dung-tmdt" target="_blank" rel="noreferrer">Repository ↗</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="reveal">
+          <div class="eyebrow">Phát triển ứng dụng thương mại điện tử</div>
+          <h1 id="hero-title">Từ cú pháp<br>đến <em>tương tác.</em></h1>
+          <p class="hero-copy">Không gian ghi lại quá trình học JavaScript qua ba chủ đề: nền tảng ngôn ngữ, thao tác DOM và sự kiện, rồi đến jQuery. Mỗi Lab có trang giới thiệu và các bài thực hành chạy độc lập.</p>
+          <div class="hero-actions">
+            <a class="button" href="#labs">Khám phá ba Lab <span class="arrow">↘</span></a>
+            <a class="button button-light" href="https://hungle-31241027755.github.io/phat-trien-ung-dung-tmdt/JavaScript-Labs/" target="_blank" rel="noreferrer">GitHub Pages <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <aside class="profile-card reveal" aria-label="Thông tin sinh viên">
+          <div class="profile-card-top"><span>Student profile</span><span class="availability">Portfolio học tập</span></div>
+          <img class="avatar" src="assets/avatar.svg" alt="Ảnh đại diện chữ CH">
+          <h2 class="profile-name">Lê Viết Chí Hưng</h2>
+          <p class="profile-major">Phát triển ứng dụng thương mại điện tử</p>
+          <div class="profile-divider"></div>
+          <div class="profile-meta"><span>Mã số sinh viên</span><strong>31241027755</strong></div>
+          <div class="profile-meta"><span>Lớp học phần</span><strong>26C1INF50902702 - S5</strong></div>
+          <div class="profile-meta"><span>GitHub</span><a href="https://github.com/hungle-31241027755" target="_blank" rel="noreferrer">hungle-31241027755 ↗</a></div>
+        </aside>
+      </section>
+
+      <section class="section" id="labs" aria-labelledby="labs-heading">
+        <p class="section-kicker">01 / Learning path</p>
+        <h2 class="section-heading" id="labs-heading">Ba chặng để làm web sống động hơn.</h2>
+        <p class="section-intro">JavaScript đưa cấu trúc HTML và giao diện CSS vào tương tác thực tế. Các bài tập dưới đây đi từ dữ liệu và hàm, đến điều khiển trang bằng DOM, rồi dùng jQuery để xử lý sự kiện, hiệu ứng và yêu cầu dữ liệu.</p>
+        <div class="lab-grid">
+          <a class="lab-card reveal" href="Lab08/index.html">
+            <div class="lab-card-top"><span class="lab-number">LAB 08 / 11 EXERCISES</span><span class="lab-icon" aria-hidden="true">⌘</span></div>
+            <h3>Language Foundations</h3>
+            <p>Cú pháp, biến, mảng, hàm và object — những viên gạch đầu tiên để diễn tả hành vi bằng mã.</p>
+            <div class="lab-card-bottom"><span>JavaScript 1</span><span class="go" aria-hidden="true">↗</span></div>
+          </a>
+          <a class="lab-card reveal" href="Lab09/index.html">
+            <div class="lab-card-top"><span class="lab-number">LAB 09 / 8 EXERCISES</span><span class="lab-icon" aria-hidden="true">◉</span></div>
+            <h3>DOM &amp; Events</h3>
+            <p>Tìm phần tử, thay đổi nội dung, tạo phản hồi cho thao tác chuột và kiểm tra biểu mẫu.</p>
+            <div class="lab-card-bottom"><span>JavaScript 2</span><span class="go" aria-hidden="true">↗</span></div>
+          </a>
+          <a class="lab-card reveal" href="Lab10/index.html">
+            <div class="lab-card-top"><span class="lab-number">LAB 10 / 10 EXERCISES</span><span class="lab-icon" aria-hidden="true">✳</span></div>
+            <h3>jQuery</h3>
+            <p>Bộ chọn gọn hơn, thao tác DOM có thể nối chuỗi, hiệu ứng trực quan và GET bất đồng bộ.</p>
+            <div class="lab-card-bottom"><span>JavaScript 3</span><span class="go" aria-hidden="true">↗</span></div>
+          </a>
+        </div>
+      </section>
+
+      <section class="section" id="learning" aria-labelledby="learning-heading">
+        <p class="section-kicker">02 / What these labs cover</p>
+        <h2 class="section-heading" id="learning-heading">Kiến thức được sắp theo cách có thể áp dụng.</h2>
+        <div class="learning-grid">
+          <article class="learning-card reveal">
+            <span class="label">Lab 08 · Nền tảng</span>
+            <h3>Từ dữ liệu đến cấu trúc chương trình</h3>
+            <p>Thực hành cú pháp JavaScript, chuỗi, ngày tháng và số học; sau đó dùng mảng, hàm và object để gom dữ liệu và chia nhỏ logic.</p>
+            <ul><li>Biến và kiểu dữ liệu</li><li>Array, function, object</li><li>Browser console để kiểm tra mã</li></ul>
+          </article>
+          <article class="learning-card reveal">
+            <span class="label">Lab 09 · DOM</span>
+            <h3>Để trang phản hồi theo người dùng</h3>
+            <p>DOM kết nối mã JavaScript với các phần tử HTML. Event listener giúp giao diện cập nhật khi người dùng chọn, rê chuột hoặc gửi biểu mẫu.</p>
+            <ul><li>Chọn và sửa phần tử</li><li>Tạo, thêm, xóa nội dung</li><li>Sự kiện và kiểm tra form</li></ul>
+          </article>
+          <article class="learning-card reveal">
+            <span class="label">Lab 10 · jQuery</span>
+            <h3>Viết tương tác cô đọng hơn</h3>
+            <p>jQuery gom các thao tác chọn phần tử, gắn sự kiện, tạo hiệu ứng và gửi yêu cầu dữ liệu vào một API nhất quán.</p>
+            <ul><li>Selectors và event handlers</li><li>Chèn phần tử, animation</li><li>GET request và jqXHR</li></ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="reflection" aria-labelledby="reflection-heading">
+        <div class="reflection reveal">
+          <div><p class="section-kicker">03 / Reflection</p><h2 id="reflection-heading">Tự đánh giá</h2></div>
+          <p>Qua ba Lab, mình hệ thống hóa cách dùng biến, mảng, hàm và đối tượng để xử lý dữ liệu trên website. DOM và sự kiện là phần cần tập trung nhất vì phải liên kết đúng phần tử với hành vi, đồng thời kiểm tra thứ tự chạy của mã. jQuery giúp viết ngắn các thao tác chọn phần tử, tạo hiệu ứng và tải dữ liệu. Trong ứng dụng thương mại điện tử, mình có thể vận dụng những kỹ thuật này để kiểm tra biểu mẫu đăng ký, cập nhật giỏ hàng, thay đổi thông tin sản phẩm và hiển thị trạng thái tải. Mình cần tiếp tục luyện cách chia hàm, đặt tên biến, xử lý lỗi bất đồng bộ và kiểm tra giao diện trên điện thoại.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><a href="../index.html">← Trang học phần</a><a href="31241027755_LeVietChiHung_JavaScript_Labs.docx">Báo cáo Word</a>
+      <span>JavaScript Labs · Lê Viết Chí Hưng · <span data-current-year>2026</span></span>
+      <a href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Về đầu trang ↑</a>
+    </footer>
+  </div>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

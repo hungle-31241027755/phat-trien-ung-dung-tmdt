@@ -1,0 +1,12 @@
+[
+  {"name":"Ho Chi Minh City","country":"Vietnam"},
+  {"name":"Hanoi","country":"Vietnam"},
+  {"name":"Singapore","country":"Singapore"},
+  {"name":"Bangkok","country":"Thailand"},
+  {"name":"Tokyo","country":"Japan"},
+  {"name":"Seoul","country":"South Korea"},
+  {"name":"Paris","country":"France"},
+  {"name":"London","country":"United Kingdom"},
+  {"name":"New York","country":"United States"},
+  {"name":"Vancouver","country":"Canada"}
+]

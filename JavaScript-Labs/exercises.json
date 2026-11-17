@@ -1,0 +1,205 @@
+[
+  {
+    "lab": "08",
+    "number": "8.1",
+    "title": "Enabling / Disabling JavaScript",
+    "path": "Lab08/Exercise01/index.html",
+    "description": "Kiểm tra JavaScript đang hoạt động và hiển thị hướng dẫn dự phòng khi JavaScript bị tắt."
+  },
+  {
+    "lab": "08",
+    "number": "8.2",
+    "title": "Embedded JavaScript",
+    "path": "Lab08/Exercise02/index.html",
+    "description": "Đặt đoạn script trong HTML và gọi hàm nhúng khi người dùng bấm nút."
+  },
+  {
+    "lab": "08",
+    "number": "8.3",
+    "title": "External JavaScript",
+    "path": "Lab08/Exercise03/index.html",
+    "description": "Liên kết file JavaScript bên ngoài để cập nhật nội dung trang và làm bộ đếm."
+  },
+  {
+    "lab": "08",
+    "number": "8.4",
+    "title": "Using noscript",
+    "path": "Lab08/Exercise04/index.html",
+    "description": "Dùng thẻ noscript để cho biết nội dung thay thế khi người xem không bật JavaScript."
+  },
+  {
+    "lab": "08",
+    "number": "8.5",
+    "title": "Using the Browser Console",
+    "path": "Lab08/Exercise05/index.html",
+    "description": "Ghi log, warning và error vào console; kiểm tra giá trị biến và xem cách sửa lỗi."
+  },
+  {
+    "lab": "08",
+    "number": "8.6",
+    "title": "Built-in JavaScript Objects",
+    "path": "Lab08/Exercise06/index.html",
+    "description": "So sánh String object với string primitive, đồng thời dùng Date và Math."
+  },
+  {
+    "lab": "08",
+    "number": "8.7",
+    "title": "Arrays",
+    "path": "Lab08/Exercise07/index.html",
+    "description": "Dùng push và unshift để tạo mảng thứ trong tuần, rồi duyệt mảng dựng lịch 30 ngày."
+  },
+  {
+    "lab": "08",
+    "number": "8.8",
+    "title": "JavaScript Functions",
+    "path": "Lab08/Exercise08/index.html",
+    "description": "Tạo và trả về HTML từ hàm có tham số, rồi minh họa phạm vi của biến cục bộ."
+  },
+  {
+    "lab": "08",
+    "number": "8.9",
+    "title": "Functions as Objects",
+    "path": "Lab08/Exercise09/index.html",
+    "description": "Truyền một hàm tính thuế vào hàm tính tổng để dùng logic khác nhau theo khu vực."
+  },
+  {
+    "lab": "08",
+    "number": "8.10",
+    "title": "Creating JavaScript Objects",
+    "path": "Lab08/Exercise10/index.html",
+    "description": "Mô hình hóa đơn hàng bằng constructor, thuộc tính và phương thức total() / output()."
+  },
+  {
+    "lab": "08",
+    "number": "8.11",
+    "title": "Arrays of Objects",
+    "path": "Lab08/Exercise11/index.html",
+    "description": "Duyệt mảng object quốc gia, truy cập thuộc tính bằng dot/bracket notation và for…in."
+  },
+  {
+    "lab": "09",
+    "number": "9.1",
+    "title": "Basic DOM Selection",
+    "path": "Lab09/Exercise01/index.html",
+    "description": "Chọn phần tử bằng id, tên thẻ, class hoặc CSS selector; đọc và thay đổi nội dung, thuộc tính và kiểu hiển thị."
+  },
+  {
+    "lab": "09",
+    "number": "9.2",
+    "title": "DOM Family Relations",
+    "path": "Lab09/Exercise02/index.html",
+    "description": "Duyệt cây phần tử, in childNodes và nodeType vào console, sau đó tô nền các node phần tử."
+  },
+  {
+    "lab": "09",
+    "number": "9.3",
+    "title": "Modifying the DOM",
+    "path": "Lab09/Exercise03/index.html",
+    "description": "Tạo text node và paragraph mới bằng JavaScript, rồi xóa phần tử con đã chọn."
+  },
+  {
+    "lab": "09",
+    "number": "9.4",
+    "title": "Simple Event Handling",
+    "path": "Lab09/Exercise04/index.html",
+    "description": "Gắn listener cho click, mouseover và mouseout; dùng transition và setTimeout để ẩn hoặc hiện nội dung."
+  },
+  {
+    "lab": "09",
+    "number": "9.5",
+    "title": "Responding to Load Events",
+    "path": "Lab09/Exercise05/index.html",
+    "description": "Đăng ký window load listener để đọc phần tử chỉ sau khi tài liệu tải xong."
+  },
+  {
+    "lab": "09",
+    "number": "9.6",
+    "title": "Debugging Events",
+    "path": "Lab09/Exercise06/index.html",
+    "description": "Quan sát event object, target và id của phần tử được kích hoạt khi rê chuột qua các hộp."
+  },
+  {
+    "lab": "09",
+    "number": "9.7",
+    "title": "Working with Forms",
+    "path": "Lab09/Exercise07/index.html",
+    "description": "Đổi nền trường text/password khi focus hoặc blur thông qua event.target."
+  },
+  {
+    "lab": "09",
+    "number": "9.8",
+    "title": "Form Validation",
+    "path": "Lab09/Exercise08/index.html",
+    "description": "Chặn gửi biểu mẫu nếu trường text hoặc password trống; hiển thị danh sách lỗi trong trang."
+  },
+  {
+    "lab": "10",
+    "number": "10.1",
+    "title": "Set Up jQuery",
+    "path": "Lab10/Exercise01/index.html",
+    "description": "Nạp jQuery từ CDN qua HTTPS và tự chuyển sang bản local khi CDN không tải được."
+  },
+  {
+    "lab": "10",
+    "number": "10.2",
+    "title": "Basic Selectors",
+    "path": "Lab10/Exercise02/index.html",
+    "description": "Sử dụng các bộ chọn jQuery để đọc và thay đổi value, html, attribute, CSS và class."
+  },
+  {
+    "lab": "10",
+    "number": "10.3",
+    "title": "Advanced Selectors",
+    "path": "Lab10/Exercise03/index.html",
+    "description": "Làm nổi bật trường password, phần tử thứ tư trong form và label có chứa từ word."
+  },
+  {
+    "lab": "10",
+    "number": "10.4",
+    "title": "jQuery Listeners",
+    "path": "Lab10/Exercise04/index.html",
+    "description": "Gắn nhiều event handlers theo chuỗi; click dừng theo dõi mousemove cho đến khi bấm bật lại."
+  },
+  {
+    "lab": "10",
+    "number": "10.5",
+    "title": "Inserting DOM Elements",
+    "path": "Lab10/Exercise05/index.html",
+    "description": "Tạo phần tử ảnh mới và thử các method chèn trước/sau, prepend/append và các biến thể insertTo."
+  },
+  {
+    "lab": "10",
+    "number": "10.6",
+    "title": "Simple jQuery Animation",
+    "path": "Lab10/Exercise06/index.html",
+    "description": "Dùng fadeIn, fadeOut, fadeToggle, slideDown, slideUp và slideToggle trên figure."
+  },
+  {
+    "lab": "10",
+    "number": "10.7",
+    "title": "More jQuery Animation",
+    "path": "Lab10/Exercise07/index.html",
+    "description": "Tạo pop-up ảnh kích thước lớn theo chuột; làm mờ thumbnail và dọn pop-up khi rời ảnh."
+  },
+  {
+    "lab": "10",
+    "number": "10.8",
+    "title": "Complex Animations",
+    "path": "Lab10/Exercise08/index.html",
+    "description": "Nối các bước animate() để chuyển phần tử ngang, dọc và thay đổi kích thước/độ mờ."
+  },
+  {
+    "lab": "10",
+    "number": "10.9",
+    "title": "GET Requests",
+    "path": "Lab10/Exercise09/index.html",
+    "description": "Gửi GET tới web service cities.php và thêm tên thành phố vào danh sách; dùng JSON local nếu request thất bại."
+  },
+  {
+    "lab": "10",
+    "number": "10.10",
+    "title": "jqXHR Handling",
+    "path": "Lab10/Exercise10/index.html",
+    "description": "Xử lý jqXHR theo chuỗi done, fail và always; nếu dịch vụ không dùng được, thử JSON cục bộ."
+  }
+]
