@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anh Hùng Javascript - Đại Chiến Rồng Già</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container" id="gameContainer">
+        <!-- Header thông tin sinh viên & trạng thái -->
+        <header class="game-header">
+            <h1>⚔️ ANH HÙNG JAVASCRIPT ⚔️</h1>
+            <p id="studentInfo">Đang tải thông tin anh hùng...</p>
+        </header>
+
+        <!-- Màn hình thiết lập nhân vật (Thay thế cho prompt) -->
+        <div id="setupScreen" class="setup-panel">
+            <h2>Khởi tạo Anh Hùng</h2>
+            <div class="form-group">
+                <label for="heroNameInput">Nhập tên nhân vật của bạn (Gợi ý: <b>Lê Viết Chí Hưng</b> để nhận +5 Trí tuệ):</label>
+                <input type="text" id="heroNameInput" value="Lê Viết Chí Hưng" placeholder="Nhập tên...">
+            </div>
+            
+            <div class="form-group">
+                <label>Chọn vai trò của bạn:</label>
+                <div class="role-options">
+                    <label class="role-card">
+                        <input type="radio" name="role" value="a" checked>
+                        <span>🛡️ Chiến binh</span>
+                        <small>+15 Sức mạnh, -10 Nhanh nhẹn, -5 Trí tuệ</small>
+                    </label>
+                    <label class="role-card">
+                        <input type="radio" name="role" value="b">
+                        <span>🗡️ Sát thủ</span>
+                        <small>-15 Sức mạnh, +10 Nhanh nhẹn, +5 Trí tuệ</small>
+                    </label>
+                    <label class="role-card">
+                        <input type="radio" name="role" value="c">
+                        <span>🏹 Thợ săn</span>
+                        <small>-15 Sức mạnh, +15 Trí tuệ</small>
+                    </label>
+                </div>
+            </div>
+
+            <button id="startBtn" class="btn-primary">BẮT ĐẦU TRẬN CHIẾN 🔥</button>
+        </div>
+
+        <!-- Đấu trường (Ẩn ban đầu) -->
+        <div id="battleArena" class="battle-arena hidden">
+            <div class="fighters">
+                <!-- Thẻ Anh Hùng -->
+                <div class="fighter-card" id="heroCard">
+                    <div class="badge" id="heroRoleBadge">Chiến binh - Lv.5</div>
+                    <h3 id="heroDisplayName">Lê Viết Chí Hưng</h3>
+                    <div class="avatar-wrapper">
+                        <!-- Sử dụng hình ảnh anhhung.jpg của bạn -->
+                        <img src="anhhung.jpg" alt="Anh Hùng" class="avatar" id="heroAvatar">
+                        <div class="damage-popup" id="heroDamageText"></div>
+                    </div>
+                    <div class="hp-bar-container">
+                        <div class="hp-bar hero-hp" id="heroHpBar"></div>
+                        <span class="hp-text" id="heroHpText">105 / 105</span>
+                    </div>
+                    <div class="stats" id="heroStats">
+                        <!-- Chỉ số được JS điền vào -->
+                    </div>
+                </div>
+
+                <div class="vs-badge">VS</div>
+
+                <!-- Thẻ Rồng Già -->
+                <div class="fighter-card" id="dragonCard">
+                    <div class="badge dragon-badge">Boss - Rồng Già</div>
+                    <h3>Hỏa Long Cổ Đại</h3>
+                    <div class="avatar-wrapper">
+                        <div class="dragon-emoji" id="dragonAvatar">🐉</div>
+                        <div class="damage-popup" id="dragonDamageText"></div>
+                    </div>
+                    <div class="hp-bar-container">
+                        <div class="hp-bar dragon-hp" id="dragonHpBar"></div>
+                        <span class="hp-text" id="dragonHpText">600 / 600</span>
+                    </div>
+                    <div class="stats">
+                        <span>⚔️ Sức mạnh: 100</span>
+                        <span>💨 Né tránh: 15%</span>
+                        <span>💥 Chí mạng: 80%</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nhật ký chiến đấu -->
+            <div class="combat-log-container">
+                <div id="combatLog" class="combat-log"></div>
+            </div>
+
+            <!-- Nút điều khiển -->
+            <div class="controls">
+                <button id="nextTurnBtn" class="btn-action">⚔️ ĐÁNH LƯỢT TIẾP THEO</button>
+                <button id="autoBattleBtn" class="btn-secondary">⚡ TỰ ĐỘNG ĐÁNH</button>
+                <button id="resetBtn" class="btn-reset hidden">🔄 CHƠI LẠI</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="anhhung.js"></script>
+</body>
+</html>
